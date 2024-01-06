@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 0;
+  }
+}
+header nav a {
+  color: var(--light-gray);
+  padding: 20px;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: #fff;
+}
+.logo {
+  height: 40px;
+}
+.social a svg {
+  height: 30px;
+  margin: 0 10px;
+  fill: var(--light-gray);
+}
+.social a svg:hover {
+  fill: #fff;
+}
+.social a {
+  display: inline-block;
+}
