@@ -1,0 +1,151 @@
+#intro {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #intro p {
+    color: var(--light-gray);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    opacity: 0;
+    transition: all 0.3s linear;
+    position: relative;
+    left: -50px;
+  }
+  
+  #intro.visible p {
+    opacity: 1;
+    left: 0;
+  }
+  
+  #intro img {
+    max-width: 400px;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+  }
+  @media (max-width: 1024px) {
+    #intro img {
+      max-width: 300px;
+    }
+    .container {
+      margin: 0 40px;
+    }
+    #intro div a {
+      padding: 8px 16px;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #intro img {
+      max-width: 250px;
+    }
+    #intro p {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    #intro p span {
+      font-size: 2.5rem;
+    }
+    #intro div a {
+      padding: 8px 16px;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+    .container {
+      margin: 0 30px;
+    }
+  }
+  
+  @media (max-width: 610px) {
+    #intro p {
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+    }
+    #intro p span {
+      font-size: 2.5rem;
+    }
+    #intro div a {
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    #intro {
+      padding: 2rem 0;
+    }
+    #intro p {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+      /* margin-top: 0; */
+    }
+    #intro p span {
+      font-size: 2rem;
+    }
+    #intro img {
+      max-width: 180px;
+      float: right;
+    }
+    .container {
+      margin: 0 20px;
+    }
+    #intro div a {
+      margin-top: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #intro p {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      /* margin-top: 0; */
+    }
+    #intro p span {
+      font-size: 2rem;
+    }
+    #intro img {
+      max-width: 140px;
+      float: right;
+    }
+    .container {
+      margin: 0 20px;
+    }
+    #intro div a {
+      margin-top: 1.2rem;
+    }
+  }
+  
+  #intro.visible img {
+    opacity: 1;
+  }
+  
+  #intro span {
+    font-family: "Spectral", serif;
+    color: var(--gold);
+    font-size: 4rem;
+  }
+  
+  #intro a {
+    border: 3px solid var(--gold);
+    border-radius: 6px;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 4rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    opacity: 0;
+    transition: all 0.3s linear;
+    position: relative;
+    bottom: -50px;
+  }
+  
+  #intro.visible a {
+    bottom: 0;
+    opacity: 1;
+  }
+  
