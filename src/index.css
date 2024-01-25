@@ -8,6 +8,16 @@ body {
   font-family: "Roboto", sans-serif;
   --gold: #e6b77d;
   --light-gray: #dce3ee;
+  --bg-darker: #3A4A63;
+  --bg-lighter: #425571;
 }
 
+h2 {
+  font-family: 'Spectral', serif;
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
 

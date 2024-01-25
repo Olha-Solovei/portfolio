@@ -5,10 +5,11 @@
 }
 
 body {
-  background-color: #425571;
+  background-color: var(--bg-lighter);
   margin: 0 auto;
   align-items: center;
   max-width: 1200px;
+  color: var(--light-gray);
 }
 
 .container {
