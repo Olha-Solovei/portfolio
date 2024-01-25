@@ -91,14 +91,18 @@
   
   @media (max-width: 610px) {
     #intro p {
-      font-size: 1.8rem;
-      line-height: 2.5rem;
+      font-size: 1.3rem;
+      line-height: 1.8rem;
     }
     #intro p span {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
     }
     #intro div a {
       margin-top: 1.5rem;
+    }
+    #intro img {
+      max-width: 180px;
+      float: right;
     }
   }
   
@@ -107,12 +111,11 @@
       padding: 2rem 0;
     }
     #intro p {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       line-height: 1.8rem;
-      /* margin-top: 0; */
     }
     #intro p span {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
     #intro img {
       max-width: 180px;
@@ -128,12 +131,11 @@
   
   @media (max-width: 375px) {
     #intro p {
-      font-size: 1.4rem;
-      line-height: 2rem;
-      /* margin-top: 0; */
+      font-size: 1.2rem;
+      line-height: 1.7rem;
     }
     #intro p span {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
     #intro img {
       max-width: 140px;
