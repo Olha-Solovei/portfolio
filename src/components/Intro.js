@@ -1,15 +1,15 @@
-// import styles from "../styles/Intro.module.css"
+import "../styles/intro.css"
 import { useEffect, useState } from 'react'
 
 
 function Intro() {
-    const [classes, setClasses] = useState('')
+    const [extraClasses, setExtraClasses] = useState('')
 useEffect(() => {
-    setClasses('visible')
+    setExtraClasses('visible')
 }, [])
 
   return (
-    <div id='intro' className={classes}>
+    <div id='intro' className={extraClasses}>
       <div>
         <p>
           I'm <span>Olha Solovei</span>,
