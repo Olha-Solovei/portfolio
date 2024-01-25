@@ -1,0 +1,24 @@
+#about {
+    background-color: var(--bg-lighter);
+    box-shadow: inset 0 10px 10px rgb(49, 63, 83, 0.7);
+    padding: 20px 20px 60px 10px;
+}
+#about p{
+    padding-left: 70px;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+}
+#about p span {
+    color: var(--gold);
+}
+#about p::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--gold);
+    margin-left: -70px;
+    margin-top: 30px;
+    position: relative;
+    top: 10px;
+}
