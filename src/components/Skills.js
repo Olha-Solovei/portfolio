@@ -4,17 +4,20 @@ import { useEffect, useState } from "react"
 
 function Skills() {
   const [active, setActive] = useState(false)
-  const {ref, inView} = useInView({
-    threshold: 0.1
+  const { ref, inView } = useInView({
+    threshold: 0.1,
   })
-    useEffect(() => {
-      if (inView) {
-        setActive(true)
-      }
+  useEffect(() => {
+    if (inView) {
+      setActive(true)
+    }
   }, [inView])
 
   return (
-    <div id='skills'  ref={ref} className={active ? 'visible' : ''}>
+    <div
+      id='skills'
+      ref={ref}
+      className={active ? "visible" : ""}>
       <h2>Skills</h2>
       <div className='skills'>
         <div className='skillbox'>
@@ -34,6 +37,10 @@ function Skills() {
           <span>CSS</span>
         </div>
         <div className='skillbox'>
+          <img src='../skills/git-img.jpg' alt='' />
+          <span>Version Control/Git</span>
+        </div>
+        <div className='skillbox'>
           <img src='../skills/svelte-img.jpg' alt='' />
           <span>Svelte</span>
         </div>
@@ -42,20 +49,16 @@ function Skills() {
           <span>CSS frameworks</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/git-img.jpg' alt='' />
-          <span>Version Control/Git</span>
-        </div>
-        <div className='skillbox'>
           <img src='../skills/dom-img.jpg' alt='' />
           <span>DOM Manipulation</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/figma-img.jpg' alt='' />
-          <span>Figma</span>
-        </div>
-        <div className='skillbox'>
           <img src='../skills/responsive-img.jpg' alt='' />
           <span>Responsive Design</span>
+        </div>
+        <div className='skillbox'>
+          <img src='../skills/figma-img.jpg' alt='' />
+          <span>Figma</span>
         </div>
         <div className='skillbox'>
           <img src='../skills/inter-img.jpg' alt='' />
