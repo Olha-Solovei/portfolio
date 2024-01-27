@@ -3,7 +3,7 @@
   text-align: center;
   transform: translate(-50%, 0%);
   opacity: 0;
-  transition: all 1s ease 0s;
+  transition: all 1.2s ease 0s;
 }
 
 #skills.visible h2 {
@@ -18,7 +18,6 @@
 }
 .skillbox {
   background-color: #576a84;
-  /* background-color: #4D617E; */
   padding: 40px;
   margin: 15px;
   text-align: center;
