@@ -23,12 +23,10 @@
     top: 10px;
 }
 
+
 @media (max-width: 768px) {
     #about{
         padding: 10px 15px 30px 10px;
-    }
-    #about h2 {
-        font-size: 34px;
     }
     #about p {
         font-size: 1.1rem;
@@ -42,9 +40,6 @@
 @media (max-width: 610px) {
     #about{
         margin-top: 5px;
-    }
-    #about h2 {
-        font-size: 26px;
     }
     #about p{
         padding-left: 40px;
@@ -65,9 +60,6 @@
 @media (max-width: 375px) {
     #about{
         margin-top: 5px;
-    }
-    #about h2 {
-        font-size: 22px;
     }
     #about p{
         padding-left: 30px;
