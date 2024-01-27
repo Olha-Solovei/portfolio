@@ -32,6 +32,8 @@
   margin-bottom: 20px;
   border-radius: 7px;
   max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skillbox span {
@@ -40,4 +42,56 @@
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   max-width: 120px;
+}
+
+@media (max-width: 1024px) {
+  .skillbox img {
+    max-width: 120px;
+  }
+  .skillbox {
+    padding: 30px;
+    margin: 10px;
+  }
+  .skillbox span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #skills h2 {
+    margin: 10px 0;
+  }
+  .skillbox img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  .skillbox {
+    padding: 15px;
+    margin: 6px;
+  }
+  .skillbox span {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 610px){
+  .skillbox {
+    padding: 10px;
+  }
+  .skillbox img {
+    max-width: 90px;
+    margin-bottom: 0;
+  }
+  .skillbox span {
+    display: none;
+  }
+}
+
+@media (max-width: 425px){
+  .skillbox img {
+    max-width: 70px;
+  }
+  .skillbox {
+    padding: 6px;
+    margin: 4px;
+  }
 }
