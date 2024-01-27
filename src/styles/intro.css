@@ -1,58 +1,58 @@
 #intro {
-    padding: 4rem 0 0 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  #intro p {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    text-align: left;
-    font-family: "Raleway", sans-serif;
-    opacity: 0;
-    transition: all 0.3s linear;
-    position: relative;
-    left: -50px;
-  }
-  #intro.visible p {
-    opacity: 1;
-    left: 0;
-  }
-  #intro img {
-    max-width: 400px;
-    opacity: 0;
-    transition: opacity 0.3s linear;
-  }
-  #intro.visible img {
-    opacity: 1;
-  }
-  #intro span {
-    font-family: "Spectral", serif;
-    color: var(--gold);
-    font-size: 4rem;
-  }
-  #intro a {
-    border: 3px solid var(--light-gray);
-    border-radius: 6px;
-    color: var(--light-gray);
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-top: 4rem;
-    display: inline-block;
-    font-size: 1.4rem;
-    opacity: 0;
-    transition: all 0.4s linear;
-    position: relative;
-    bottom: -50px;
-  }
-  #intro a:hover{
-    color: var(--gold);
-    border: 3px solid var(--gold);
-    transition: all 0.2s linear;
-  }
-  #intro.visible a {
-    bottom: 0;
-    opacity: 1;
-  }
+  padding: 4rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+#intro p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  opacity: 0;
+  transition: all 0.3s linear;
+  position: relative;
+  left: -50px;
+}
+#intro.visible p {
+  opacity: 1;
+  left: 0;
+}
+#intro img {
+  max-width: 400px;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+#intro.visible img {
+  opacity: 1;
+}
+#intro span {
+  font-family: "Spectral", serif;
+  color: var(--gold);
+  font-size: 4rem;
+}
+#intro a {
+  border: 3px solid var(--light-gray);
+  border-radius: 6px;
+  color: var(--light-gray);
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 4rem;
+  display: inline-block;
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: all 0.4s linear;
+  position: relative;
+  bottom: -50px;
+}
+#intro a:hover {
+  color: var(--gold);
+  border: 3px solid var(--gold);
+  transition: all 0.2s linear;
+}
+#intro.visible a {
+  bottom: 0;
+  opacity: 1;
+}
 
   @media (max-width: 1024px) {
     #intro img {
@@ -90,29 +90,35 @@
   }
   
   @media (max-width: 610px) {
+    #intro {
+      padding: 1.7rem 0;
+    }
     #intro p {
-      font-size: 1.8rem;
-      line-height: 2.5rem;
+      font-size: 1.3rem;
+      line-height: 1.8rem;
     }
     #intro p span {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
     }
     #intro div a {
       margin-top: 1.5rem;
+    }
+    #intro img {
+      max-width: 180px;
+      float: right;
     }
   }
   
   @media (max-width: 425px) {
     #intro {
-      padding: 2rem 0;
+      padding: 1.5rem 0;
     }
     #intro p {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       line-height: 1.8rem;
-      /* margin-top: 0; */
     }
     #intro p span {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
     #intro img {
       max-width: 180px;
@@ -123,20 +129,24 @@
     }
     #intro div a {
       margin-top: 1.2rem;
+      padding: 6px 12px;
+      font-size: 1rem;
+    }
+    #intro a{
+      border: 2px solid var(--light-gray);
     }
   }
   
   @media (max-width: 375px) {
     #intro p {
-      font-size: 1.4rem;
-      line-height: 2rem;
-      /* margin-top: 0; */
+      font-size: 1.1rem;
+      line-height: 1.6rem;
     }
     #intro p span {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
     #intro img {
-      max-width: 140px;
+      max-width: 130px;
       float: right;
     }
     .container {
