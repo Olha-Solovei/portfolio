@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+  color: var(--light-gray);
+  text-decoration: none;
+  padding-right: 5px;
+}
+nav a:not(:last-child) {
+    padding-left: 40px;
+}
+nav a:hover {
+  color: #fff;
+}
+.social svg {
+  height: 30px;
+  margin: 0 10px;
+  fill: var(--light-gray);
+}
+.social svg:hover {
+  fill: #fff;
+}
+.social {
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  nav a {
+    padding: 20px;
+  }
+}
