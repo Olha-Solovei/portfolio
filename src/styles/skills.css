@@ -1,9 +1,9 @@
 #skills h2 {
   margin: 20px 0 0 0;
   text-align: center;
-  transform: translate(-50%, 0%);
+  transform: translate(-10%, 0%);
   opacity: 0;
-  transition: all 1.2s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 #skills.visible h2 {
@@ -17,16 +17,56 @@
   justify-content: center;
 }
 .skillbox {
+  opacity: 0;
+  transition: all 0.4s linear;
   background-color: #576a84;
   padding: 40px;
   margin: 15px;
   text-align: center;
   border-radius: 15px;
 }
+.skillbox span {
+  display: block;
+}
+#skills.visible .skillbox {
+  opacity: 1;
+}
 .skillbox:hover {
   background-color: #65778f;
-  transition: all 0.4s linear;
+  transition: all 0.5s linear;
 }
+
+.skillbox:nth-child(2) {
+  transition-delay: 0.15s;
+}
+.skillbox:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.skillbox:nth-child(4) {
+  transition-delay: 0.45s;
+}
+.skillbox:nth-child(5) {
+  transition-delay: 0.6s;
+}
+.skillbox:nth-child(6) {
+  transition-delay: 0.75s;
+}
+.skillbox:nth-child(7) {
+  transition-delay: 0.9s;
+}
+.skillbox:nth-child(8) {
+  transition-delay: 1.05s;
+}
+.skillbox:nth-child(9) {
+  transition-delay: 1.15s;
+}
+.skillbox:nth-child(10) {
+  transition-delay: 1.3s;
+}
+.skillbox:nth-child(11) {
+  transition-delay: 1.45s;
+}
+
 .skillbox img {
   display: block;
   margin-bottom: 20px;
@@ -73,7 +113,7 @@
     font-size: 1rem;
   }
 }
-@media (max-width: 610px){
+@media (max-width: 610px) {
   .skillbox {
     padding: 10px;
   }
@@ -86,7 +126,7 @@
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
   .skillbox img {
     max-width: 70px;
   }
