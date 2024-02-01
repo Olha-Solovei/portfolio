@@ -1,9 +1,17 @@
+import { useRef } from "react"
 import "../styles/navbar.css"
+import { FaBars, FaTimes } from "react-icons/fa"
 
 function Navbar() {
+
+    const navRef = useRef()
+    const showNavBar = () => {
+        navRef.current.classList.toggle("responsive")
+    }
+
   return (
     <div>
-      <nav>
+      <nav ref={navRef}>
         <a href='#top'>About me</a>
         <a href='#top'>Portfolio</a>
         <a href='#top'>Contact</a>
@@ -23,7 +31,13 @@ function Navbar() {
             <path d='M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z' />
           </svg>
         </a>
+        <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+          <FaTimes />
+        </button>
       </nav>
+      <button className="nav-btn" onClick={showNavBar}>
+        <FaBars />
+      </button>
     </div>
   )
 }
