@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: var(--bg-lighter);
+  background-color: var(--bg-dark);
   margin: 0 auto;
   align-items: center;
   max-width: 1200px;
