@@ -15,11 +15,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 40px;
 }
 .skillbox {
   opacity: 0;
   transition: all 0.4s linear;
-  background-color: #576a84;
+  background-color: var(--bg-light);
   padding: 40px;
   margin: 15px;
   text-align: center;
@@ -31,10 +32,10 @@
 #skills.visible .skillbox {
   opacity: 1;
 }
-.skillbox:hover {
+/* .skillbox:hover {
   background-color: #65778f;
-  transition: all 0.5s linear;
-}
+  transition: all 0.2s linear;
+} */
 
 .skillbox:nth-child(2) {
   transition-delay: 0.15s;
@@ -98,6 +99,9 @@
 }
 
 @media (max-width: 768px) {
+  .skills{
+    padding-bottom: 20px;
+  }
   #skills h2 {
     margin: 10px 0;
   }
