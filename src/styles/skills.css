@@ -32,11 +32,6 @@
 #skills.visible .skillbox {
   opacity: 1;
 }
-/* .skillbox:hover {
-  background-color: #65778f;
-  transition: all 0.2s linear;
-} */
-
 .skillbox:nth-child(2) {
   transition-delay: 0.15s;
 }
