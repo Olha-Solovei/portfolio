@@ -1,78 +1,125 @@
-#experience .border{
-    margin: 40px 0 0 0;
-    background-color: var(--bg-dark);
-    box-shadow: inset 0 4px 7px rgb(49, 63, 83, 0.7);
-    padding: 6px;
-    /* box-shadow: inset 0 2px 4px rgb(230, 183, 125, 0.7); */
-    margin-top: -34px;
+#experience .border {
+  margin: 40px 0 0 0;
+  background-color: var(--bg-dark);
+  box-shadow: inset 0 4px 7px rgb(49, 63, 83, 0.7);
+  padding: 6px;
+  margin-top: -34px;
 }
-#experience h2 {
+.experience {
+  margin: 60px 0 40px 70px;
 }
-.experience{
-    margin: 60px 0 40px 70px;
+.item {
+  display: flex;
 }
-.item{
-    display: flex;
+.date {
+  padding-right: 20px;
+  display: flex;
+  position: relative;
+  top: -5px;
 }
-.date{
-    padding-right: 20px;
-    display: flex;
-    position: relative;
-    top: -5px;
+.date span.year {
+  background-color: var(--bg-light);
+  padding: 0 10px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
 }
-.date span.year{
-    background-color: var(--bg-light);
-    padding: 0 10px;
-    display: inline-block;
-    height: 30px;
-    line-height: 30px;
+.date span.arrow {
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent
+    var(--bg-light);
 }
-.date span.arrow{
-    display: inline-block;
-    content: '';
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 15px 0 15px 20px;
-    border-color: transparent transparent transparent var(--bg-light);
+.separator {
+  display: flex;
+  flex-direction: column;
 }
-.separator{
-    display: flex;
-    flex-direction: column;
+.separator .dot {
+  width: 18px;
+  height: 18px;
+  background-color: var(--gold);
+  border-radius: 50%;
+  box-shadow: 0 0 14px var(--gold);
 }
-.separator .dot{
-    width: 18px;
-    height: 18px;
-    background-color: var(--gold);
-    border-radius: 50%;
-    box-shadow: 0 0 14px var(--gold);
+.separator .line {
+  min-height: 10px;
+  width: 1px;
+  background-color: var(--light-gray);
+  flex-grow: 1;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
-.separator .line{
-    min-height: 10px;
-    width: 1px;
-    background-color: var(--light-gray);
-    flex-grow: 1;
-    margin-left: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+.texts {
+  padding-left: 20px;
+  padding-bottom: 30px;
 }
-.texts{
-    padding-left: 20px;
-    padding-bottom: 30px;
+.texts h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 1.7rem;
+  font-weight: normal;
 }
-.texts h4{
-    margin-top: 6px;
-    margin-bottom: 6px;
+.texts h4 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.texts p {
+  color: rgb(220, 227, 238, 0.7);
+  line-height: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  #experience .border {
+    margin: 30px 0 0 0;
+    margin-top: -26px;
+  }
+  .experience {
+    margin: 40px 10px 30px 40px;
+  }
+  .texts h3 {
+    font-size: 1.5rem;
+  }
+  .texts h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 610px) {
+  #experience .border {
+    margin: 20px 0 0 0;
+    margin-top: -18px;
+  }
+  .experience {
+    margin: 30px 10px 20px 0px;
+  }
+  .date {
+    padding-right: 10px;
+  }
+  .texts {
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .texts h3 {
     font-size: 1.3rem;
-    font-weight: normal;
-    /* color: rgb(220, 227, 238, 0.7); */
-}
-.texts h3{
-    font-family: Raleway, sans-serif;
-    font-size: 1.7rem;
-    font-weight: normal;
-}
-.texts p{
-    color: rgb(220, 227, 238, 0.7);
-    line-height: 1.2rem;
+  }
+  .texts h4 {
+    font-size: 1.1rem;
+    margin-top: 0px;
+    margin-bottom: 3px;
+  }
+  .texts p {
+    line-height: 1.1rem;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+  }
+  .date span.year {
+    padding: 0 0 0 6px;
+    font-size: 15px;
+  }
 }

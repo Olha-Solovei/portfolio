@@ -8,12 +8,15 @@ function Experience() {
       <div className='experience'>
         <div className='timeline'>
           <div className='item'>
-          <div className="date"><span className="year">2022</span><span className="arrow"></span></div>
-            <div className="separator">
+            <div className='date'>
+              <span className='year'>2022</span>
+              <span className='arrow'></span>
+            </div>
+            <div className='separator'>
               <div className='dot'></div>
               <div className='line'></div>
             </div>
-            <div className="texts">
+            <div className='texts'>
               <h3>Developer</h3>
               <h4>Ukraine</h4>
               <p>
@@ -28,12 +31,15 @@ function Experience() {
             </div>
           </div>
           <div className='item'>
-          <div className="date"><span className="year">2022</span><span className="arrow"></span></div>
-            <div className="separator">
+            <div className='date'>
+              <span className='year'>2022</span>
+              <span className='arrow'></span>
+            </div>
+            <div className='separator'>
               <div className='dot'></div>
               <div className='line'></div>
             </div>
-            <div className="texts">
+            <div className='texts'>
               <h3>Developer</h3>
               <h4>Ukraine</h4>
               <p>
@@ -48,12 +54,15 @@ function Experience() {
             </div>
           </div>
           <div className='item'>
-          <div className="date"><span className="year">2022</span><span className="arrow"></span></div>
-            <div className="separator">
+            <div className='date'>
+              <span className='year'>2022</span>
+              <span className='arrow'></span>
+            </div>
+            <div className='separator'>
               <div className='dot'></div>
               <div className='line'></div>
             </div>
-            <div className="texts">
+            <div className='texts'>
               <h3>Developer</h3>
               <h4>Ukraine</h4>
               <p>
