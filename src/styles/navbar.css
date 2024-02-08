@@ -1,8 +1,10 @@
+.navbar{
+  display: flex;
+}
 nav {
   display: flex;
   align-items: center;
 }
-
 nav a {
   color: var(--light-gray);
   text-decoration: none;
@@ -11,9 +13,6 @@ nav a {
 nav a.social {
   padding: 0;
 }
-/* nav a:not(:last-child) {
-    padding-left: 40px;
-} */
 nav a:hover {
   color: #fff;
 }
@@ -33,7 +32,6 @@ nav a:hover {
     padding: 20px;
   }
 }
-
 .nav-btn {
   padding: 5px;
   cursor: pointer;
@@ -45,7 +43,6 @@ nav a:hover {
   visibility: hidden;
   opacity: 0;
 }
-
 @media (max-width: 768px) {
   .nav-btn {
     visibility: visible;
@@ -62,7 +59,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--bg-lighter);
+    background-color: var(--bg-dark);
     transition: 0.5s;
     transform: translateY(-100vh);
     z-index: 20;
