@@ -21,32 +21,32 @@ function Skills() {
       <h2>Skills</h2>
       <div className='skills'>
         <div className='skillbox'>
-          <img src='../skills/js-img.jpg' alt='' />
-          <span>Javascript</span>
+          <img src='../skills/html-css-js.jpg' alt='' />
+          <span>HTML, CSS, JS</span>
         </div>
         <div className='skillbox'>
           <img src='../skills/react-img.jpg' alt='' />
           <span>React</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/html-img.jpg' alt='' />
-          <span>HTML</span>
+          <img src='../skills/svelte-img.jpg' alt='' />
+          <span>Svelte</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/css-img.jpg' alt='' />
-          <span>CSS</span>
+          <img src='../skills/css-fr.jpg' alt='' />
+          <span>CSS-frameworks</span>
         </div>
         <div className='skillbox'>
           <img src='../skills/git-img.jpg' alt='' />
           <span>Version Control/Git</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/svelte-img.jpg' alt='' />
-          <span>Svelte</span>
+          <img src='../skills/unit-testing.jpg' alt='' />
+          <span>Unit-testing</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/tailwind-img.jpg' alt='' />
-          <span>CSS frameworks</span>
+          <img src='../skills/figma-img.jpg' alt='' />
+          <span>Figma</span>
         </div>
         <div className='skillbox'>
           <img src='../skills/dom-img.jpg' alt='' />
@@ -57,12 +57,12 @@ function Skills() {
           <span>Responsive Design</span>
         </div>
         <div className='skillbox'>
-          <img src='../skills/figma-img.jpg' alt='' />
-          <span>Figma</span>
-        </div>
-        <div className='skillbox'>
           <img src='../skills/inter-img.jpg' alt='' />
           <span>Interpersonal Skills</span>
+        </div>
+        <div className='skillbox'>
+          <img src='../skills/eng-img.jpg' alt='' />
+          <span>Advanced English level</span>
         </div>
       </div>
     </div>
