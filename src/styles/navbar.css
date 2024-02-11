@@ -43,7 +43,7 @@ nav a:hover {
   visibility: hidden;
   opacity: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 610px) {
   .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -59,10 +59,10 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--bg-dark);
+    background-color: rgba(66, 85, 113, 0.8);
     transition: 0.5s;
     transform: translateY(-100vh);
-    z-index: 20;
+    z-index: 2;
   }
   .responsive {
     transform: none;

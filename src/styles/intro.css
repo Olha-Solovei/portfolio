@@ -17,8 +17,11 @@
   opacity: 1;
   left: 0;
 }
+#intro .img-box{
+  padding: 0 30px;
+}
 #intro img {
-  max-width: 400px;
+  max-width: 360px;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
@@ -36,7 +39,7 @@
   color: var(--light-gray);
   text-decoration: none;
   padding: 10px 20px;
-  margin-top: 4rem;
+  margin: 4rem 0 2rem 0;
   display: inline-block;
   font-size: 1.4rem;
   opacity: 0;
@@ -54,111 +57,111 @@
   opacity: 1;
 }
 
-  @media (max-width: 1024px) {
-    #intro img {
-      max-width: 300px;
-    }
-    .container {
-      margin: 0 40px;
-    }
-    #intro div a {
-      padding: 8px 16px;
-      margin-top: 2rem;
-      font-size: 1.2rem;
-    }
+@media (max-width: 1024px) {
+  #intro img {
+    max-width: 300px;
   }
-  
-  @media (max-width: 768px) {
-    #intro {
-      padding: 3rem 0;
-    }
-    #intro img {
-      max-width: 250px;
-    }
-    #intro p {
-      font-size: 2rem;
-      line-height: 3rem;
-    }
-    #intro p span {
-      font-size: 2.5rem;
-    }
-    #intro div a {
-      padding: 8px 16px;
-      margin-top: 2rem;
-      font-size: 1.2rem;
-    }
-    .container {
-      margin: 0 30px;
-    }
+  .container {
+    margin: 0 40px;
   }
-  
-  @media (max-width: 610px) {
-    #intro {
-      padding: 1.7rem 0;
-    }
-    #intro p {
-      font-size: 1.3rem;
-      line-height: 1.8rem;
-    }
-    #intro p span {
-      font-size: 1.8rem;
-    }
-    #intro div a {
-      margin-top: 1.5rem;
-    }
-    #intro img {
-      max-width: 180px;
-      float: right;
-    }
+  #intro div a {
+    padding: 8px 16px;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.2rem;
   }
-  
-  @media (max-width: 425px) {
-    #intro {
-      padding: 1.5rem 0;
-    }
-    #intro p {
-      font-size: 1.2rem;
-      line-height: 1.8rem;
-    }
-    #intro p span {
-      font-size: 1.7rem;
-    }
-    #intro img {
-      max-width: 180px;
-      float: right;
-    }
-    .container {
-      margin: 0 20px;
-    }
-    #intro div a {
-      margin-top: 1.2rem;
-      padding: 6px 12px;
-      font-size: 1rem;
-    }
-    #intro a{
-      border: 2px solid var(--light-gray);
-    }
-  }
-  
-  @media (max-width: 375px) {
-    #intro p {
-      font-size: 1.4rem;
-      line-height: 2rem;
-      /* margin-top: 0; */
-    }
-    #intro p span {
-      font-size: 1.7rem;
-    }
-    #intro img {
-      max-width: 130px;
-      float: right;
-    }
-    .container {
-      margin: 0 20px;
-    }
-    #intro div a {
-      margin-top: 1.2rem;
-    }
-  }
+}
 
-  
+@media (max-width: 768px) {
+  #intro {
+    padding: 3rem 0 10px 0;
+  }
+  #intro img {
+    max-width: 250px;
+  }
+  #intro p {
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+  #intro p span {
+    font-size: 2.5rem;
+  }
+  #intro div a {
+    padding: 8px 16px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .container {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 610px) {
+  #intro {
+    padding: 1.7rem 0 10px 0;
+  }
+  #intro p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  #intro p span {
+    font-size: 1.8rem;
+  }
+  #intro div a {
+    margin-top: 1.5rem;
+  }
+  #intro img {
+    max-width: 160px;
+    float: right;
+  }
+}
+
+@media (max-width: 425px) {
+  #intro {
+    padding: 1.5rem 0 5px 0;
+  }
+  #intro p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  #intro p span {
+    font-size: 1.7rem;
+  }
+  #intro .img-box{
+    padding: 0 15px;
+  }
+  #intro img {
+    max-width: 140px;
+    float: right;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  #intro div a {
+    margin-top: 1.2rem;
+    padding: 6px 10px;
+    font-size: 1rem;
+  }
+  #intro a {
+    border: 2px solid var(--light-gray);
+  }
+}
+
+@media (max-width: 375px) {
+  #intro p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  #intro p span {
+    font-size: 1.7rem;
+  }
+  #intro img {
+    max-width: 130px;
+    float: right;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  #intro div a {
+    margin-top: 1.2rem;
+  }
+}
