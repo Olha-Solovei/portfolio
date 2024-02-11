@@ -17,7 +17,7 @@ function Intro() {
         <p>(React.js) </p>
         <a href='#nav-contact'>Contact me</a>
       </div>
-      <div className="img-box">
+      <div className='img-box'>
         <img src='/portrait.png' alt='portrait' />
       </div>
     </div>

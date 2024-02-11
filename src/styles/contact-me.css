@@ -1,103 +1,102 @@
 #contact {
-    border-top: 3px solid var(--gold);
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-} 
+  border-top: 3px solid var(--gold);
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
 #contact h2 {
-    position: relative;
-    top: -40px;
-    background-color: var(--bg-dark);
-    display: inline-block;
-    padding: 0 30px;
+  position: relative;
+  top: -40px;
+  background-color: var(--bg-dark);
+  display: inline-block;
+  padding: 0 30px;
 }
-.boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    top: -30px;
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
 }
-.box{
-    cursor: pointer;
-    background-color: #3a4a63;
-    border-radius: 4px;
-    min-width: 240px;
-    margin: 15px 30px;
-    align-items: center;
-    padding: 5px 10px;
-    display: flex;
-    justify-content: center;
-    box-shadow: inset 0 10px 10px rgb(49, 63, 83, 0.7);
+.box {
+  cursor: pointer;
+  background-color: #3a4a63;
+  border-radius: 4px;
+  min-width: 240px;
+  margin: 15px 30px;
+  align-items: center;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 10px 10px rgb(49, 63, 83, 0.7);
 }
-.box:hover{
-    background-color: #435571;
-    transition: all 0.2s linear;
-
+.box:hover {
+  background-color: #435571;
+  transition: all 0.2s linear;
 }
-.box svg{
-    height: 20px;
-    fill: var(--light-gray);
+.box svg {
+  height: 20px;
+  fill: var(--light-gray);
 }
-.box a{
-    text-decoration: none;
-    margin-left: 10px;
-    color: var(--light-gray);
+.box a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: var(--light-gray);
 }
 .social-icon {
-    margin-top: -30px;
-    background-color: var(--bg-dark);
-    display: inline-block;
-    padding: 0 20px;
+  margin-top: -30px;
+  background-color: var(--bg-dark);
+  display: inline-block;
+  padding: 0 20px;
 }
 #contact .border-bottom {
-    border-top: 3px solid var(--gold);
-    margin-top: -22px;
+  border-top: 3px solid var(--gold);
+  margin-top: -22px;
 }
 @media (max-width: 768px) {
-    #contact{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    #contact h2 {
-        top: -30px;
-    }
-    .boxes{
-        max-width: 600px;
-    }
-    .box{
-        min-width: 200px;
-        margin: 10px 20px;
-    }
-    .box a{
-        font-size: 14px;
-    }
+  #contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #contact h2 {
+    top: -30px;
+  }
+  .boxes {
+    max-width: 600px;
+  }
+  .box {
+    min-width: 200px;
+    margin: 10px 20px;
+  }
+  .box a {
+    font-size: 14px;
+  }
 }
 @media (max-width: 610px) {
-    #contact{
-        border-top: 2px solid var(--gold);
-        margin-top: 20px;
-    }
-    #contact .border-bottom {
-        border-top: 2px solid var(--gold);
-    }
-    #contact h2 {
-        top: -20px;
-        padding: 0 20px;
-    }
-    .social-icon {
-        padding: 0 10px;
-    }
-    .social-icon svg {
-        width: 20px;
-    }
-    .boxes{
-        padding-top: 16px;
-    }
-    .box{
-        min-width: 170px;
-        margin: 6px 12px;
-    }
+  #contact {
+    border-top: 2px solid var(--gold);
+    margin-top: 20px;
+  }
+  #contact .border-bottom {
+    border-top: 2px solid var(--gold);
+  }
+  #contact h2 {
+    top: -20px;
+    padding: 0 20px;
+  }
+  .social-icon {
+    padding: 0 10px;
+  }
+  .social-icon svg {
+    width: 20px;
+  }
+  .boxes {
+    padding-top: 16px;
+  }
+  .box {
+    min-width: 170px;
+    margin: 6px 12px;
+  }
 }

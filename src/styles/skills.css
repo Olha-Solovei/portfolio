@@ -88,13 +88,10 @@
     padding: 25px;
     margin: 10px;
   }
-  /* .skillbox span {
-    font-size: 1.2rem;
-  } */
 }
 
 @media (max-width: 768px) {
-  .skills{
+  .skills {
     padding-bottom: 20px;
   }
   #skills h2 {

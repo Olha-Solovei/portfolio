@@ -8,7 +8,7 @@
 .experience {
   margin: 60px 0 10px 70px;
 }
-.texts p{
+.texts p {
   font-size: 17px;
 }
 .item {
@@ -76,7 +76,7 @@
   color: rgb(220, 227, 238, 0.7);
   line-height: 1.2rem;
 }
-.up-btn svg{
+.up-btn svg {
   height: 3rem;
   fill: var(--light-gray);
   position: relative;
@@ -91,7 +91,7 @@
   .experience {
     margin: 40px 10px 10px 40px;
   }
-  .texts{
+  .texts {
     padding-bottom: 15px;
   }
   .texts h3 {
@@ -100,10 +100,10 @@
   .texts h4 {
     font-size: 1.2rem;
   }
-  .texts p{
+  .texts p {
     font-size: 16px;
   }
-  .up-btn svg{
+  .up-btn svg {
     height: 2rem;
     left: 95%;
   }
@@ -141,7 +141,7 @@
     padding: 0 0 0 6px;
     font-size: 15px;
   }
-  .up-btn svg{
+  .up-btn svg {
     height: 1.5rem;
     left: 92%;
   }
