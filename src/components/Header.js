@@ -5,11 +5,13 @@ function Header() {
   return (
     <header>
       <div>
-        <img
+    <a className={styles.link} href="#top">
+    <img
           className={styles.logo}
           src='/icon-portfolio.png'
           alt='logo'
         />
+    </a>
       </div>
       <Navbar />
     </header>

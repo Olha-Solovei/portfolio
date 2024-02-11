@@ -1,12 +1,11 @@
 import "../styles/intro.css"
-import { useEffect, useState } from 'react'
-
+import { useEffect, useState } from "react"
 
 function Intro() {
-    const [extraClasses, setExtraClasses] = useState('')
-useEffect(() => {
-    setExtraClasses('visible')
-}, [])
+  const [extraClasses, setExtraClasses] = useState("")
+  useEffect(() => {
+    setExtraClasses("visible")
+  }, [])
 
   return (
     <div id='intro' className={extraClasses}>
@@ -16,13 +15,10 @@ useEffect(() => {
         </p>
         <p>Frontend developer </p>
         <p>(React.js) </p>
-        <a href='#top'>Contact me</a>
+        <a href='#nav-contact'>Contact me</a>
       </div>
-      <div>
-        <img
-          src='/my-photo-portfolio2.jpg'
-          alt='portrait'
-        />
+      <div className="img-box">
+        <img src='/portrait.png' alt='portrait' />
       </div>
     </div>
   )
