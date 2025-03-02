@@ -77,7 +77,7 @@ function Experience() {
           </div>
           <div className='item'>
             <div className='date'>
-              <span className='year'>2023</span>
+              <span className='year'>2024</span>
               <span className='arrow'></span>
             </div>
             <div className='separator'>
